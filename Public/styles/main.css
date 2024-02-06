@@ -60,3 +60,58 @@ body{
 h3{
     color: gray;
 }
+.container hr{
+    border-color: white;
+}
+
+@media (width<399px) {
+    .container{
+        margin-top: 10px;
+    }
+}
+@media (width<379) {
+    .container{
+        margin-top: 30px;
+    }
+}
+@media (min-width:399px) and (max-width:599px) {
+    .container{
+        margin-top:40px
+    }
+}
+@media (min-width:405px) and (max-width:496px) {
+    .container{
+        margin-top:50px
+    }
+}
+
+
+
+
+/* ----------- 0 - 450px ----------- */
+@media screen 
+  and (max-width: 450px){
+}
+
+/* ----------- 450 - 650px ----------- */
+@media screen 
+  and (min-width: 451px) 
+  and (max-width: 650px){
+}
+
+/* ----------- 650px - 950px ----------- */
+@media screen 
+  and (min-width: 651px)
+  and (max-width: 950px){
+}
+
+/* ----------- 950px - 1200px ----------- */
+@media screen 
+  and (min-width: 951px) 
+  and (max-width: 1200px){
+}
+
+/* ----------- 1200px + ----------- */
+@media screen 
+  and (min-width: 1201px){
+}

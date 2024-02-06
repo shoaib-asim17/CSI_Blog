@@ -21,3 +21,8 @@ body{
 h1{
     color: white;
 }
+/* @media only  screen and (min-width:293px) and (max-width:379px) {
+    .{
+        margin-top:50px
+    }
+} */
